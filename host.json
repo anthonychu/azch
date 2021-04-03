@@ -11,14 +11,10 @@
             "default": "Information"
         }
     },
-    "extensionBundle": {
-        "id": "Microsoft.Azure.Functions.ExtensionBundle",
-        "version": "[1.*, 2.0.0)"
-    },
     "customHandler": {
         "description": {
             "defaultExecutablePath": "node",
-            "defaultWorkerPath": "graphql/index.js"
+            "defaultWorkerPath": "index.mjs"
         },
         "enableForwardingHttpRequest": true
     },
